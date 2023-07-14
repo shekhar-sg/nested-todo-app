@@ -7,14 +7,6 @@ body {
 }
 
 @layer components {
-    .card {
-        @apply bg-white rounded-lg shadow-lg;
-        background-color: black;
-        border-radius: 0.25rem;
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        padding: 1rem;
-    }
-
     .input {
         @apply  w-full bg-stone-900 border border-gray-300 rounded mt-1 py-3 px-4 leading-tight focus:ring-0 focus:border-gray-500;
     }
