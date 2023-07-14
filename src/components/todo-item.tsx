@@ -37,7 +37,7 @@ const TodoItem = (props: TodoItemProps) => {
             <h3 className={'m-0'}>{title}</h3>
           </div>
           <div className={'ml-1 grid gap-y-3'}>
-            <span>{description}</span>
+            <span className={'text-ellipsis overflow-hidden'}>{description}</span>
             <span>{status}</span>
           </div>
         </div>
